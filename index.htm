@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="header-txt">Non woven fabric formula</h1>
+    <div class="divider">
+    <div class="wrapper">
+       
+        <div class="inputcontainer">
+            <label for="">Per Sheet Rate
+                <input type="number" id="length" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer">
+            <label for="">Roll Height
+                <input type="number" id="height" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer">
+            <label for="">Roll Gsm
+                <input type="number" id="roll" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer">
+            <label for="">Roll per Kg
+                <input type="number" id="roll-kg" placeholder="">
+            </label>
+        </div>
+        
+        <button onclick="validate()" >submit</button>
+      
+       
+    </div>
+<section>
+    <div class="wrapper-2">
+       
+        <div class="inputcontainer-2">
+            <label for="">Per Sheet Rate
+                <input type="number" id="sheet" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer-2">
+            <label for="">Patti  Rate  
+                <input type="number" id="Patti" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer-2">
+            <label for="">Printing Rate  
+                <input type="number" id="print" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer-2">
+            <label for="">Stitching  Rate
+                <input type="number" id="Stitching" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer-2">
+            <label for="">Stick  Rate
+                <input type="number" id="stick" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer-2">
+            <label for="">RollCutting Rate
+                <input type="cutting-rate" id="c-rate" placeholder="">
+            </label>
+        </div>
+        <div class="inputcontainer-2">
+            <label for="">other Exp
+                <input type="number" id="exp" placeholder="">
+            </label>
+        </div>
+
+
+        <button onclick="estimate()" id="btn" >submit</button>
+        <p class="display-data" id="data"></p>
+    </div>
+
+    
+</section>
+    
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>

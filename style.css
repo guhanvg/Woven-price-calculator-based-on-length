@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.header-txt{
+    margin-bottom: 15px;
+}
+
+.divider{
+    display: flex;
+}
+.wrapper{
+    box-shadow: 0 0 4px rgb(179, 169,169);
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.inputcontainer{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.inputcontainer label{
+    font-size: 15px;
+}
+.inputcontainer input{
+    border: none;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgb(145, 140, 140);
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.wrapper-2{
+    box-shadow: 0 0 4px rgb(179, 169,169);
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.inputcontainer-2{
+    margin: 5px;
+    display: flex;
+    
+    justify-content: space-between;
+    width: 80%;
+}
+
+.inputcontainer-2 label{
+    font-size: 15px;
+}
+.inputcontainer-2 input{
+    border: none;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgb(145, 140, 140);
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.display-data{
+    padding-top: 13px;
+    margin: 50px -6px;
+    padding-right: 43px;
+    padding-left: 22px;
+    width: 300px; 
+     height: 93px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+    border: 2px solid black;
+}
+
